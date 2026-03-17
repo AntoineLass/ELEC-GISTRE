@@ -784,6 +784,20 @@
 		(color 0 0 0 0)
 		(uuid "b872392a-50e6-4a37-b1fe-580ae04d9756")
 	)
+	(no_connect
+		(at 129.54 111.76)
+		(uuid "84bd79ec-0046-416c-87dd-60c38ef16e52")
+	)
+	(wire
+		(pts
+			(xy 186.69 88.9) (xy 186.69 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0069d6f2-74af-4f71-9506-0df58775de5e")
+	)
 	(wire
 		(pts
 			(xy 148.59 116.84) (xy 148.59 133.35)
@@ -896,16 +910,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 88.9) (xy 186.69 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "357788b3-02b7-4371-8d59-c2079f1d6d5d")
-	)
-	(wire
-		(pts
 			(xy 203.2 88.9) (xy 215.9 88.9)
 		)
 		(stroke
@@ -993,16 +997,6 @@
 			(type default)
 		)
 		(uuid "52a03699-fd40-4a68-a91b-04c421b3a796")
-	)
-	(wire
-		(pts
-			(xy 129.54 88.9) (xy 186.69 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55c07d59-d4f1-4d79-ae19-ad623ad0540b")
 	)
 	(wire
 		(pts
@@ -1223,6 +1217,16 @@
 			(type default)
 		)
 		(uuid "b8e976c2-836c-4c5e-a2a6-94497b7f05f8")
+	)
+	(wire
+		(pts
+			(xy 129.54 88.9) (xy 186.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b936d924-ebc6-44b7-8597-ec1fba81e024")
 	)
 	(wire
 		(pts
@@ -1837,7 +1841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9159df4-91b9-4448-8679-055287d20018")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 189.23 111.7599 0)
 			(effects
 				(font
@@ -1891,7 +1895,7 @@
 		(instances
 			(project "Projet-ELEC-GISTRE"
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/2757586b-a595-4bbd-a053-f321bba70aab"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/3f85d457-279c-4073-b07d-d3cae4a5eb35"
@@ -2207,7 +2211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e136dd21-96e9-4ce6-b62d-74c24d86a458")
-		(property "Reference" "U?"
+		(property "Reference" "U5"
 			(at 121.5233 81.28 0)
 			(effects
 				(font
@@ -2303,7 +2307,7 @@
 		(instances
 			(project "Projet-ELEC-GISTRE"
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/2757586b-a595-4bbd-a053-f321bba70aab"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/3f85d457-279c-4073-b07d-d3cae4a5eb35"
