@@ -173,174 +173,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1480,7 +1312,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 236.22) (xy 309.88 237.49)
+			(xy 309.88 227.33) (xy 309.88 237.49)
 		)
 		(stroke
 			(width 0)
@@ -1840,7 +1672,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 48.26) (xy 76.2 50.8)
+			(xy 76.2 38.1) (xy 76.2 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2360,16 +2192,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 38.1) (xy 76.2 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9249e102-0f9c-45fa-afbd-c78a6f47846c")
-	)
-	(wire
-		(pts
 			(xy 194.31 50.8) (xy 194.31 55.88)
 		)
 		(stroke
@@ -2857,16 +2679,6 @@
 			(type default)
 		)
 		(uuid "c64b7b5b-50ac-499c-8a01-3bf90b733718")
-	)
-	(wire
-		(pts
-			(xy 309.88 227.33) (xy 309.88 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c81e2658-4828-422b-9d79-994f08f6e7b6")
 	)
 	(wire
 		(pts
@@ -3551,7 +3363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01c54174-cd61-4a86-99af-316fc0ec7c9f")
-		(property "Reference" "D96"
+		(property "Reference" "D8"
 			(at 281.94 83.4546 0)
 			(effects
 				(font
@@ -3611,7 +3423,7 @@
 		(instances
 			(project ""
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/b16f55a3-e312-45fa-a45f-1850db188063"
-					(reference "D96")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -3627,7 +3439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0857dfdd-54e8-4c1e-b12b-08d899c1fce5")
-		(property "Reference" "D41"
+		(property "Reference" "D37"
 			(at 256.54 185.0546 0)
 			(effects
 				(font
@@ -3687,7 +3499,7 @@
 		(instances
 			(project "Projet-ELEC-GISTRE"
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/b16f55a3-e312-45fa-a45f-1850db188063"
-					(reference "D41")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -3840,94 +3652,6 @@
 			(project "Projet-ELEC-GISTRE"
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/b16f55a3-e312-45fa-a45f-1850db188063"
 					(reference "D48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 76.2 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11b87000-3f77-4be3-a45c-95ab1c28833a")
-		(property "Reference" "D52"
-			(at 78.74 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 78.74 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 76.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 76.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 76.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9a69ca0-21fa-4ab9-9a32-eee725ae44ff")
-		)
-		(pin "2"
-			(uuid "e1c863a7-eb7f-4934-99be-93308091c12c")
-		)
-		(instances
-			(project ""
-				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/b16f55a3-e312-45fa-a45f-1850db188063"
-					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -4095,7 +3819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cd9a791-f7d0-4754-9cfd-c14eef750861")
-		(property "Reference" "D23"
+		(property "Reference" "D27"
 			(at 154.94 134.2546 0)
 			(effects
 				(font
@@ -4155,7 +3879,7 @@
 		(instances
 			(project "Projet-ELEC-GISTRE"
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/b16f55a3-e312-45fa-a45f-1850db188063"
-					(reference "D23")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -4263,7 +3987,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 104.14 65.278 90)
 			(effects
 				(font
@@ -4619,7 +4343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ec2facf-54cb-4c30-9902-410b91f7e5d5")
-		(property "Reference" "D38"
+		(property "Reference" "D40"
 			(at 180.34 185.0546 0)
 			(effects
 				(font
@@ -4679,7 +4403,7 @@
 		(instances
 			(project "Projet-ELEC-GISTRE"
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/b16f55a3-e312-45fa-a45f-1850db188063"
-					(reference "D38")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -4771,7 +4495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5400601c-54dc-4a4b-9b7d-4997bc88eb01")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 313.69 56.2609 0)
 			(effects
 				(font
@@ -4789,7 +4513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 310.8452 62.23 0)
 			(effects
 				(font
@@ -4825,7 +4549,7 @@
 		(instances
 			(project ""
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/b16f55a3-e312-45fa-a45f-1850db188063"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4917,7 +4641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bde41b2-1db5-49ab-bdbd-55059226f454")
-		(property "Reference" "D26"
+		(property "Reference" "D24"
 			(at 231.14 134.2546 0)
 			(effects
 				(font
@@ -4977,7 +4701,7 @@
 		(instances
 			(project "Projet-ELEC-GISTRE"
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/b16f55a3-e312-45fa-a45f-1850db188063"
-					(reference "D26")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -4993,7 +4717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f6e5428-c405-4544-a6ce-5eead62b5499")
-		(property "Reference" "D22"
+		(property "Reference" "D28"
 			(at 129.54 134.2546 0)
 			(effects
 				(font
@@ -5053,7 +4777,7 @@
 		(instances
 			(project "Projet-ELEC-GISTRE"
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/b16f55a3-e312-45fa-a45f-1850db188063"
-					(reference "D22")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -5145,7 +4869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6130d137-1410-42f3-a956-c54c131c9d88")
-		(property "Reference" "D28"
+		(property "Reference" "D22"
 			(at 281.94 134.2546 0)
 			(effects
 				(font
@@ -5205,7 +4929,7 @@
 		(instances
 			(project "Projet-ELEC-GISTRE"
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/b16f55a3-e312-45fa-a45f-1850db188063"
-					(reference "D28")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -5297,7 +5021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e672cf8-c244-44aa-8092-c627836142c6")
-		(property "Reference" "D37"
+		(property "Reference" "D41"
 			(at 154.94 185.0546 0)
 			(effects
 				(font
@@ -5357,7 +5081,7 @@
 		(instances
 			(project "Projet-ELEC-GISTRE"
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/b16f55a3-e312-45fa-a45f-1850db188063"
-					(reference "D37")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -5373,7 +5097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f4641e6-e99b-4922-8556-9cd7389afda6")
-		(property "Reference" "D53"
+		(property "Reference" "D1"
 			(at 129.54 57.0798 0)
 			(effects
 				(font
@@ -5433,7 +5157,7 @@
 		(instances
 			(project ""
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/b16f55a3-e312-45fa-a45f-1850db188063"
-					(reference "D53")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5449,7 +5173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e7565e4-8d26-4ba2-99f6-10685241e061")
-		(property "Reference" "D42"
+		(property "Reference" "D36"
 			(at 281.94 185.0546 0)
 			(effects
 				(font
@@ -5509,7 +5233,7 @@
 		(instances
 			(project "Projet-ELEC-GISTRE"
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/b16f55a3-e312-45fa-a45f-1850db188063"
-					(reference "D42")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -6429,7 +6153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa8c8484-4f38-4747-a16d-623d2ca98a52")
-		(property "Reference" "D27"
+		(property "Reference" "D23"
 			(at 256.54 134.2546 0)
 			(effects
 				(font
@@ -6489,7 +6213,7 @@
 		(instances
 			(project "Projet-ELEC-GISTRE"
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/b16f55a3-e312-45fa-a45f-1850db188063"
-					(reference "D27")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -6961,7 +6685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc2109f7-edc8-4f75-a949-82b3c500ee77")
-		(property "Reference" "D36"
+		(property "Reference" "D42"
 			(at 129.54 185.0546 0)
 			(effects
 				(font
@@ -7021,7 +6745,7 @@
 		(instances
 			(project "Projet-ELEC-GISTRE"
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/b16f55a3-e312-45fa-a45f-1850db188063"
-					(reference "D36")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -7333,7 +7057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e05a20ad-e4aa-446f-8f02-b975dbe0d20f")
-		(property "Reference" "D40"
+		(property "Reference" "D38"
 			(at 231.14 185.0546 0)
 			(effects
 				(font
@@ -7393,7 +7117,7 @@
 		(instances
 			(project "Projet-ELEC-GISTRE"
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/b16f55a3-e312-45fa-a45f-1850db188063"
-					(reference "D40")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -7409,7 +7133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4bb5124-7093-4d9a-9e88-848dedba5f7e")
-		(property "Reference" "D24"
+		(property "Reference" "D26"
 			(at 180.34 134.2546 0)
 			(effects
 				(font
@@ -7469,95 +7193,7 @@
 		(instances
 			(project "Projet-ELEC-GISTRE"
 				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/b16f55a3-e312-45fa-a45f-1850db188063"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 309.88 232.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8b94576-a0fa-4dc1-99fa-4b9cad745217")
-		(property "Reference" "D102"
-			(at 312.42 231.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 312.42 233.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 309.88 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 309.88 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 309.88 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 309.88 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 309.88 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "01badf6f-3b15-4c7b-aa42-4416aaa7fc9e")
-		)
-		(pin "1"
-			(uuid "e4890e08-43b6-4f6d-9a95-19e35af88cc9")
-		)
-		(instances
-			(project ""
-				(path "/88219bad-2ec7-47f4-a09d-0e9b2dfe4690/b16f55a3-e312-45fa-a45f-1850db188063"
-					(reference "D102")
+					(reference "D26")
 					(unit 1)
 				)
 			)
